@@ -101,5 +101,22 @@ int main() {
                     break;
                 }
             }
+               if (!found) {
+                cout << "Student not found.\n";
+            }
+        }
+
+        else if (choice == 5) {
+            cout << "Exiting Program...\n";
+        }
+
+        else {
+            cout << "Invalid Choice! Please try again.\n";
+        }
+
+    } while (choice != 5);
+
+    return 0;
+}
 
             
